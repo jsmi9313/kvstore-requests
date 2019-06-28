@@ -12,7 +12,7 @@ Have pyenv installed with a version of 3.6.0 or 3.6.5
 
 ### Installing
 
-* Run setup.sh to create virtual environments and install libraries
+* Run `setup.sh` to create virtual environments and install libraries
 * Activate venv (`. venv/bin/activate`)
 
 ### Editing
