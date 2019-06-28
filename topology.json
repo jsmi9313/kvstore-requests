@@ -1,0 +1,428 @@
+[
+    {
+        "node_id": "SAP S/4HANA",
+        "label": "SAP S/4HANA",
+        "counter": "SAP S/4HANA",
+        "tier": 1,
+        "edges": [],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c39"
+    },
+    {
+        "node_id": "SAP SuccessFactors",
+        "label": "SAP SuccessFactors",
+        "counter": "SAP SuccessFactors",
+        "tier": 1,
+        "edges": [],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c3a"
+    },
+    {
+        "node_id": "SAP Ariba",
+        "label": "SAP Ariba",
+        "counter": "SAP Ariba",
+        "tier": 1,
+        "edges": [],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c3b"
+    },
+    {
+        "node_id": "Salesforce CRM",
+        "label": "Salesforce CRM",
+        "counter": "Salesforce CRM",
+        "tier": 1,
+        "edges": [],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c3c"
+    },
+    {
+        "node_id": "Dialog DB",
+        "label": "Dialog DB",
+        "counter": "Dialog DB",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c3d"
+    },
+    {
+        "node_id": "Batch Monitoring",
+        "label": "Batch Monitoring",
+        "counter": "Batch Monitoring",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c3e"
+    },
+    {
+        "node_id": "User Count",
+        "label": "User Count",
+        "counter": "User Count",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c3f"
+    },
+    {
+        "node_id": "ABAP Instance Status",
+        "label": "ABAP Instance Status",
+        "counter": "ABAP Instance Status",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c40"
+    },
+    {
+        "node_id": "Number Short Dumps",
+        "label": "Number Short Dumps",
+        "counter": "Number Short Dumps",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c41"
+    },
+    {
+        "node_id": "Cloud Infrastructure",
+        "label": "Cloud Infrastructure",
+        "counter": "Cloud Infrastructure",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c42"
+    },
+    {
+        "node_id": "IDOC Monitoring",
+        "label": "IDOC Monitoring",
+        "counter": "IDOC Monitoring",
+        "tier": 2,
+        "edges": [
+            {
+                "node_id": "SAP S/4HANA",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c43"
+    },
+    {
+        "node_id": "Heap Memory Used (%)",
+        "label": "Heap Memory Used (%)",
+        "counter": "Heap Memory Used (%)",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c44"
+    },
+    {
+        "node_id": "Extended Memory Used (%)",
+        "label": "Extended Memory Used (%)",
+        "counter": "Extended Memory Used (%)",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c45"
+    },
+    {
+        "node_id": "Paging Area Used (%)",
+        "label": "Paging Area Used (%)",
+        "counter": "Paging Area Used (%)",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c46"
+    },
+    {
+        "node_id": "CPU Utilization",
+        "label": "CPU Utilization",
+        "counter": "CPU Utilization",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c47"
+    },
+    {
+        "node_id": "CPU I/O Wait %",
+        "label": "CPU I/O Wait %",
+        "counter": "CPU I/O Wait %",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c48"
+    },
+    {
+        "node_id": "File System Used (%)",
+        "label": "File System Used (%)",
+        "counter": "File System Used (%)",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c49"
+    },
+    {
+        "node_id": "Network Utilization",
+        "label": "Network Utilization",
+        "counter": "Network Utilization",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c4a"
+    },
+    {
+        "node_id": "Disk I/O",
+        "label": "Disk I/O",
+        "counter": "Disk I/O",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "Dialog DB",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c4b"
+    },
+    {
+        "node_id": "Update Record Errors",
+        "label": "Update Record Errors",
+        "counter": "Update Record Errors",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "IDOC Monitoring",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c4c"
+    },
+    {
+        "node_id": "Free Dialog Work Processes",
+        "label": "Free Dialog Work Processes",
+        "counter": "Free Dialog Work Processes",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "IDOC Monitoring",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c4d"
+    },
+    {
+        "node_id": "Short Dumps on Instance",
+        "label": "Short Dumps on Instance",
+        "counter": "Short Dumps on Instance",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "IDOC Monitoring",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c4e"
+    },
+    {
+        "node_id": "Locked Users",
+        "label": "Locked Users",
+        "counter": "Locked Users",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "IDOC Monitoring",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c4f"
+    },
+    {
+        "node_id": "Modified RFC Destinations",
+        "label": "Modified RFC Destinations",
+        "counter": "Modified RFC Destinations",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "IDOC Monitoring",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c50"
+    },
+    {
+        "node_id": "VM/OS Availability",
+        "label": "VM/OS Availability",
+        "counter": "VM/OS Availability",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "ABAP Instance Status",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c51"
+    },
+    {
+        "node_id": "Free Memory",
+        "label": "Free Memory",
+        "counter": "Free Memory",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "ABAP Instance Status",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c52"
+    },
+    {
+        "node_id": "Filesystem Space",
+        "label": "Filesystem Space",
+        "counter": "Filesystem Space",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "ABAP Instance Status",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c53"
+    },
+    {
+        "node_id": "ABAP Message Status",
+        "label": "ABAP Message Status",
+        "counter": "ABAP Message Status",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "ABAP Instance Status",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c54"
+    },
+    {
+        "node_id": "ABAP Enqueue Status",
+        "label": "ABAP Enqueue Status",
+        "counter": "ABAP Enqueue Status",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "ABAP Instance Status",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c55"
+    },
+    {
+        "node_id": "ABAP Disp+Work Status",
+        "label": "ABAP Disp+Work Status",
+        "counter": "ABAP Disp+Work Status",
+        "tier": 3,
+        "edges": [
+            {
+                "node_id": "ABAP Instance Status",
+                "strength": 1,
+                "phase": 0
+            }
+        ],
+        "_user": "nobody",
+        "_key": "5d158991fe90598ec81d6c56"
+    }
+]
