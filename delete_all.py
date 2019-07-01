@@ -18,6 +18,10 @@ headers = {
 
 response = requests.request("DELETE", url, data=payload, headers=headers, verify=False, auth=(settings["user"], settings["password"]))
 
-print("\nResponse: {}".format(response.text))
 print("\nSTATUS: {}".format(response.status_code))
+print("\nRESPONSE: ")
+try:
+	print(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
+except json.decoder.JSONDecodeError as e:
+	print(response.text)
 
