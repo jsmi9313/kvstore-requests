@@ -13,6 +13,6 @@ printf '\n--------------------------------\n\tACTIVATE VENV.\n------------------
 printf '\n--------------------------------\n\tUPGRADE PIP.\n--------------------------------\n'
 pip install --upgrade pip
 
-printf '\n--------------------------------\n\tINSTALL REQS.\n--------------------------------\n'
+printf '\n--------------------------------\n\tINSTALL REQS.\n--------------------------------'
 pip install -r requirements.txt
 
