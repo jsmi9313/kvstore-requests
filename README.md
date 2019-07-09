@@ -8,12 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Have pyenv installed with a version of 3.6.0 or 3.6.5
+Have python3 interpretor on system.
 
-### Installing
+### Instal/Running
 
+* Add local splunk user and password to `settings.json`
 * Run `setup.sh` to create virtual environments and install libraries
-* Activate venv (`. venv/bin/activate`)
+* Run `run.sh` to clear and post the data defaults to the kvstore
 
 ### Editing
 
